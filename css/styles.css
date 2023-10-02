@@ -1,5 +1,6 @@
 * {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-size: 80%;
 }
 h1 {
     font-size:250%;
@@ -14,19 +15,17 @@ h1 {
 
 }
 .btn{
+	
 	display: block;
 	width: 25%;
 	height: 35px;
 	border-radius: 20px;
 	outline: none;
-	border: none;
-	background-image: linear-gradient(rgb(219, 125, 11));
-	background-size: 200%;
 	font-size: 1.2rem;
 	text-transform: uppercase;
 	margin: 1rem 0;
 	cursor: pointer;
-	transition: .5s;
+	background: #e0b5b5;
 }
 
 .input {
