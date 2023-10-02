@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Newton-Raphson Solver</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+</head>
+<body background="resources/back.png">
+    <b>
+        <h1>Newton-Raphson </h1>
+        <h1>Solver</h1>
+        <div class="txt">
+            <form id="solver-form" action="/solve" method="post">
+                <label for="equation">Enter the equation in terms of 'x':</label>
+                <br>
+                <input type="text" id="equation" class="input" name="equation" required><br>
+                
+                <label for="initial-guess">Enter the initial guess (x0):</label>
+                <br>
+                <input type="number" id="initial-guess" class="input" name="initialGuess" required><br>
+        
+                <label for="Tolerance">Solution correct to no. of digits:</label>
+                <br>
+                <input type="number" id="tolerance" class="input" name="error" required><br>
+                <center>
+                    <input type="submit" class="btn" value="Solve">
+                </center>
+            </form>
+        </div>
+    </b>
+</body>
+</html>
