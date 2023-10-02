@@ -74,17 +74,15 @@ app.post('/solve', (req, res) => {
         <title>Newton-Raphson Solver</title>
         <link rel="stylesheet" type="text/css" href="css/styles.css" />
     </head>
-    <body background="resources/mcsc.png">
-        <b>
+    <body background="resources/MCSC.jpg">
+    <b>
+    <div class="text">
         <h1>Newton-Raphson </h1>
         <h1>Solver</h1>
                 <form id="solver-form" action="/" method="post">
-                <div class="prev">
                 <p> Equation = ${equationInput} </p>
                 <p>Initial Guess = ${initialGuess} </p>
                 <p>The Solution correct to ${tol} digits is found by:</p>
-                </div>
-                <div class="text">
                 <p>${resultsHTML}</p>
                 <p>Converged to solution:${xVal.toFixed(tol)}</p>
 
